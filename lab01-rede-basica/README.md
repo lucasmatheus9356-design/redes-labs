@@ -34,6 +34,8 @@ write memory
 - PC-A → PC-B:
 - PC-A → Switch-01:
 - PC-B → Switch-01:
+- PC-A → PC-B: 4 de 4 respostas (0% de perda)
+- PC1 → Switch-01: 3 de 4 respostas (o primeiro pacote falhou por causa do ARP)
 
 ## ❓ Perguntas
 1. Por que não precisamos de gateway nesta topologia?
