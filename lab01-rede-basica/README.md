@@ -43,4 +43,7 @@ write memory
 3. O que significa a máscara /24? A máscara 255.255.255.0 é escrita como /24 porque tem 24 bits ligados. Esses 24 bits (os 3 primeiros números) identificam a rede, e o último número identifica o host. Rede: 192.168.1 | Host: .10 (PC-A), .20 (PC-B), .2 (switch) | Uma rede /24 tem 256 endereços, mas 254 utilizáveis: o .0 é o endereço da rede e o .255 é o broadcast.
 
 ## 📚 O que aprendi
-(com suas palavras)
+- Não foi preciso configurar gateway, pois PC-A, PC-B e Switch-01 estão na mesma rede (192.168.1.0/24) e se comunicam diretamente.
+- O primeiro ping pode falhar porque o dispositivo ainda precisa descobrir o MAC do destino via ARP. Os seguintes funcionam normalmente.
+- O TTL mostra o tipo de equipamento: 128 no PC (Windows) e 255 no switch Cisco.
+- Estar ligado ao mesmo switch não significa estar na mesma rede: quem define isso é o IP junto com a máscara.
