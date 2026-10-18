@@ -38,9 +38,9 @@ write memory
 - PC1 → Switch-01: 3 de 4 respostas (o primeiro pacote falhou por causa do ARP)
 
 ## ❓ Perguntas
-1. Por que não precisamos de gateway nesta topologia?
-2. O que o switch faz com o endereço IP da VLAN 1?
-3. O que significa a máscara /24?
+1. Por que não precisamos de gateway nesta topologia? O gateway é a “porta de saída” da rede local: o equipamento (um roteador) que leva os pacotes para outras redes. Aqui, PC-A, PC-B e Switch-01 estão todos na mesma rede (192.168.1.0), então conversam direto, sem sair dela. Por isso o gateway é N/A.
+2. O que o switch faz com o endereço IP da VLAN 1? O switch encaminha o tráfego entre PC-A e PC-B usando o endereço MAC, e para isso não precisa de IP. O IP na VLAN 1 (uma interface virtual) serve para gerenciar o switch: dá para pingar, acessar por Telnet/SSH e configurar à distância. Foi por isso que ele respondeu ao seu ping.
+3. O que significa a máscara /24? A máscara 255.255.255.0 é escrita como /24 porque tem 24 bits ligados. Esses 24 bits (os 3 primeiros números) identificam a rede, e o último número identifica o host. Rede: 192.168.1 | Host: .10 (PC-A), .20 (PC-B), .2 (switch) | Uma rede /24 tem 256 endereços, mas 254 utilizáveis: o .0 é o endereço da rede e o .255 é o broadcast.
 
 ## 📚 O que aprendi
 (com suas palavras)
