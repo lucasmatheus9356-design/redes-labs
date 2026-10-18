@@ -29,14 +29,13 @@ write memory
 ```
 
 ## ✅ Testes Realizados
+<img width="706" height="710" alt="image" src="https://github.com/user-attachments/assets/5b9b0319-f29c-4535-bb66-c15ced09c726" />
+
 <img width="707" height="714" alt="image" src="https://github.com/user-attachments/assets/2a1d980f-3eb8-4514-993d-ca15c29212f6" />
 
-
-- PC-A → PC-B:
-- PC-A → Switch-01:
-- PC-B → Switch-01:
+- Ajustei o nome do PC0 para o PC-A e o PC01 para PC-B
 - PC-A → PC-B: 4 de 4 respostas (0% de perda)
-- PC1 → Switch-01: 3 de 4 respostas (o primeiro pacote falhou por causa do ARP)
+- PC-B → Switch-01: 3 de 4 respostas (o primeiro pacote falhou por causa do ARP)
 
 ## ❓ Perguntas
 1. Por que não precisamos de gateway nesta topologia? O gateway é a “porta de saída” da rede local: o equipamento (um roteador) que leva os pacotes para outras redes. Aqui, PC-A, PC-B e Switch-01 estão todos na mesma rede (192.168.1.0), então conversam direto, sem sair dela. Por isso o gateway é N/A.
