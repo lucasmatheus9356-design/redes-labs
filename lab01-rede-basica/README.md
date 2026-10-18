@@ -33,7 +33,7 @@ write memory
 
 <img width="707" height="714" alt="image" src="https://github.com/user-attachments/assets/2a1d980f-3eb8-4514-993d-ca15c29212f6" />
 
-- Ajustei o nome do PC0 para o PC-A e o PC01 para PC-B
+- Ajustei o nome do PC0 para o PC-A e o PC1 para PC-B
 - PC-A → PC-B: 4 de 4 respostas (0% de perda)
 - PC-B → Switch-01: 3 de 4 respostas (o primeiro pacote falhou por causa do ARP)
 
