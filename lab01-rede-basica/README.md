@@ -29,7 +29,8 @@ write memory
 ```
 
 ## ✅ Testes Realizados
-(colar aqui o print dos pings)
+<img width="707" height="714" alt="image" src="https://github.com/user-attachments/assets/2a1d980f-3eb8-4514-993d-ca15c29212f6" />
+
 
 - PC-A → PC-B:
 - PC-A → Switch-01:
