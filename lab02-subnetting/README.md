@@ -4,7 +4,7 @@
 Dividir a rede 192.168.1.0/24 em 4 sub-redes e verificar na prática quais dispositivos se comunicam sem roteador.
 
 ## 🗺️ Topologia
-![Topologia](topologia.png)
+![Topologia](topologia%202.png)
 
 ## 🔢 Plano de sub-redes (máscara 255.255.255.192)
 
