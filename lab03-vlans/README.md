@@ -53,13 +53,19 @@ Verificação: `show vlan brief`
 
 - PC-A → PC-B (mesma VLAN 10): respondeu
 
-![Ping com sucesso](ping-sucesso.png)
+<img width="707" height="715" alt="Captura de tela 2026-10-19 215717" src="https://github.com/user-attachments/assets/021d1f91-7832-4dcc-9188-93f97db1205f" />
+
 
 - PC-A → PC-C (VLANs diferentes): 100% de perda (timeout)
 
-![Ping com timeout](ping-timeout.png)
+<img width="705" height="715" alt="Captura de tela 2026-10-19 215812" src="https://github.com/user-attachments/assets/bf475fb5-c0dd-40c0-bfa2-8304fe57ed2d" />
+
 
 - Teste extra: movendo a porta Fa0/1 para a VLAN 20, o ping PC-A → PC-C passou a funcionar. Ao devolver a porta para a VLAN 10, o timeout voltou.
+
+<img width="701" height="713" alt="Captura de tela 2026-10-19 225500" src="https://github.com/user-attachments/assets/8d68cef1-a7e3-44fc-b926-7f8ffda8c246" />
+<img width="700" height="709" alt="Captura de tela 2026-10-19 225053" src="https://github.com/user-attachments/assets/7aa779b6-deb3-439c-911e-85ef8c0cf776" />
+
 
 ## 📚 O que aprendi
 - VLAN divide o switch em redes virtuais isoladas.
