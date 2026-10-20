@@ -48,7 +48,8 @@ write memory
 
 Verificação: `show vlan brief`
 
-![show vlan brief](show-vlan.png)
+<img width="701" height="713" alt="Captura de tela 2026-10-19 225500" src="https://github.com/user-attachments/assets/58dc5960-b359-490a-827c-dd45452da23e" />
+
 
 ## ✅ Testes Realizados
 
