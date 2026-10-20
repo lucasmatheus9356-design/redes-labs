@@ -4,7 +4,7 @@
 Criar duas VLANs em um switch e verificar na prática que dispositivos em VLANs diferentes não se comunicam, mesmo estando na mesma rede IP.
 
 ## 🗺️ Topologia
-![Topologia](topologia-lab03.png)
+
 
 ## 🔢 Plano de VLANs
 
