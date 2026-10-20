@@ -25,7 +25,13 @@ Dividir a rede 192.168.1.0/24 em 4 sub-redes e verificar na prática quais dispo
 
 ## ✅ Testes Realizados
 - PC-A → PC-B (mesma sub-rede): 4 de 4 respostas
+<img width="705" height="710" alt="image" src="https://github.com/user-attachments/assets/234bf7e9-4a58-481f-a185-cf1cca63c181" />
+
+
 - PC-A → PC-C (sub-redes diferentes): 100% de perda (timeout)
+
+<img width="696" height="709" alt="image" src="https://github.com/user-attachments/assets/851f6fba-aa9c-4f15-8e47-3d16d29e22c5" />
+
 
 ## 📚 O que aprendi
 - Dispositivos na mesma sub-rede se comunicam direto, sem gateway.
